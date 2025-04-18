@@ -1,0 +1,72 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ccs}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a3bc3fc58cf5856bf763c10ea5f05369}{%
+           family={董宁},
+           familyi={董\bibinitperiod}}}%
+        {{hash=86313e011d0516e37f3cccaf0f1a28b4}{%
+           family={陈振},
+           familyi={陈\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=a3bc3fc58cf5856bf763c10ea5f05369}{%
+           family={董宁},
+           familyi={董\bibinitperiod}}}%
+        {{hash=86313e011d0516e37f3cccaf0f1a28b4}{%
+           family={陈振},
+           familyi={陈\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{publisher}{1}{%
+        {电子工业出版社}%
+      }
+      \strng{namehash}{041a0d9767facd5e3a8b955b42af1830}
+      \strng{fullhash}{73b75790c823146d827276a89e63f63d}
+      \strng{bibnamehash}{73b75790c823146d827276a89e63f63d}
+      \strng{authorbibnamehash}{73b75790c823146d827276a89e63f63d}
+      \strng{authornamehash}{041a0d9767facd5e3a8b955b42af1830}
+      \strng{authorfullhash}{73b75790c823146d827276a89e63f63d}
+      \strng{nameabibnamehash}{73b75790c823146d827276a89e63f63d}
+      \strng{nameanamehash}{041a0d9767facd5e3a8b955b42af1830}
+      \strng{nameafullhash}{73b75790c823146d827276a89e63f63d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{计算机控制系统（第3版）}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \keyw{ccs}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

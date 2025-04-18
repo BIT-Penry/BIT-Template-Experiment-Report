@@ -1,0 +1,94 @@
+\fancyhead[LH]{传感器综合实验课程报告}
+\fancyhead[RH]{实验一\quad 电阻应变片式传感器实验}
+\section{电阻应变片式传感器实验}
+
+\begin{center}
+    {\zihao{-4}
+        小组成员：\underline{\quad 闵鹏远、王安彤 \quad} \quad
+        实验时间：\underline{\quad 2025年3月28日 \quad}
+    }
+\end{center}
+
+\subsection{应变片双臂特性试验}
+
+\subsubsection{实验目的}
+
+\begin{enumerate}
+    \item 了解金属箔式应变片的工作原理与应变效应
+    \item 掌握应变片式电阻传感器的
+    \item 掌握机械回程差的消除方法。
+\end{enumerate}
+
+\subsubsection{实验内容}
+
+针对金属箔式应变片，构建半桥电桥电路，如下图，将电阻应变式传感器的电阻变化转换成电压或电流信号。通过调节测微头微分筒改变梁的受力程度，测试电阻应变片的特性。
+
+\subsubsection{实验步骤}
+
+\subsubsection{实验结果}
+
+1. 原始数据
+
+2. 曲线图
+
+3. 灵敏度
+
+4. 非线性误差
+
+\subsection{应变片温度特性试验及温度补偿实验}
+
+\subsubsection{实验目的}
+
+\subsubsection{实验内容}
+
+\subsubsection{实验步骤}
+
+\subsubsection{实验结果}
+
+1. 原始数据
+
+2. 计算
+
+3. 分析比较
+
+\subsection{应变片直流全桥的应用——电子秤实验}
+
+\subsubsection{实验记录}
+
+\subsubsection{电压与重量的关系公式}
+
+\subsubsection{实验结果分析}
+
+\subsubsection{称重两个物品重量的计算}
+
+\subsection{测试样例}
+
+这里用于测试内容，请后续直接删除即可 
+
+图片引用测试\ref{fig:myfig2}：
+
+\begin{figure}[H] % 这里 H 表示 强制放置在当前位置，更改为htbp表示根据需要放置
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/北京理工大学校徽.png} % 可调整宽度
+    \caption{测试图片}
+    \label{fig:myfig2}
+\end{figure}
+
+公式示例\ref{eq:pid-incremental}：
+\begin{equation}
+    \left\{
+    \begin{aligned}
+        u(k) &= q_0 e(k) + B(k-1) \\
+        B(k) &= u(k) + q_1 e(k-1) + q_2 e(k-2) \\
+        q_0 &= K_p \left(1 + \frac{T_s}{T_i} + \frac{T_d}{T_s} \right) \\
+        q_1 &= -K_p \left(1 + 2 \cdot \frac{T_d}{T_s} \right) \\
+        q_2 &= K_p \cdot \frac{T_d}{T_s}
+    \end{aligned}
+    \right.
+    \label{eq:pid-incremental}
+    \end{equation} 
+
+表格示例：
+\input{tab/tab1.tex} % 这里的 tab/tab1.tex 是表格文件的路径
+
+\newpage
